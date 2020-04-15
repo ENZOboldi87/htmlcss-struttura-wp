@@ -1,0 +1,65 @@
+/* general rules */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* end general rules */
+
+/* header rules */
+header {
+  background: yellow;
+  height: 200px;
+}
+/* end header rules */
+
+/* main rules */
+main::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+main {
+  margin: 10px 0;
+}
+
+main .col {
+  float: left;
+}
+
+main .left {
+  background: pink;
+  width: 30%;
+  height: 400px;
+}
+
+main .right {
+  background: pink;
+  width: 30%;
+  height: 300px;
+}
+
+main .middle {
+  background: purple;
+  height: 650px;
+  width: 38%;
+  margin: 0 1%;
+}
+
+main .bottom-right {
+  height: 300px;
+  width: 30%;
+  background: pink;
+  float: right;
+  margin-top: 1%;
+}
+/* end main rules */
+
+/* footer rules */
+footer {
+  width: 100%;
+  background: cyan;
+  height: 130px;
+}
+/* end footer rules */
